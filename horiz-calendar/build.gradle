@@ -66,8 +66,8 @@ ext {
 
     libraryDescription = 'Nice Horizontal Calendar'
 
-    siteUrl = 'https://github.com/dev-hussein/ITLButton'
-    gitUrl = 'https://github.com/dev-hussein/ITLButton.git'
+    siteUrl = 'https://github.com/dev-hussein/horiz-calendar'
+    gitUrl = 'https://github.com/dev-hussein/horiz-calendar.git'
 
     libraryVersion = '0.0.1'
 
