@@ -100,7 +100,7 @@ abstract class CalenderAdapter :
                         view.viewTreeObserver.removeOnGlobalLayoutListener(this)
                         val width: Int = view.measuredWidth
                         val centerOfScreen: Int =
-                            (recyclerView.width.div(2)).minus(width.div(2) ?: 0)
+                            (recyclerView.width.div(2)).minus(width.div(2))
 
                         if (recyclerView.layoutManager is LinearLayoutManager)
                             layoutManager?.scrollToPositionWithOffset(
