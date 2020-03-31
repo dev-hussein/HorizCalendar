@@ -7,9 +7,7 @@
 allprojects {
     repositories {
         ...
-        maven {
-            url 'https://dl.bintray.com/dev-hussein/maven/'
-        }
+        jcenter()
         ...
     }
 }
