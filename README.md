@@ -22,7 +22,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'dev.hussein.horiz-calendar:horiz-calendar:0.0.2'
+    implementation 'dev.hussein.horiz-calendar:horiz-calendar:0.0.3'
 }
 ```
 # HOW TO USE 
@@ -47,8 +47,8 @@ mbiniding.calendarView.apply {
                 }
 
             }
-            setDay(cal[Calendar.DAY_OF_MONTH], false)
-            setMonth(HorizontalCalendar.Month.valueOf(cal[Calendar.MONTH]), false)
-            setYear(cal[Calendar.YEAR], true)
+            updateDate(cal[Calendar.DAY_OF_MONTH] , HorizontalCalendar.Month.valueOf(cal[Calendar.MONTH])
+                      , cal[Calendar.YEAR])
+
         }
 ```

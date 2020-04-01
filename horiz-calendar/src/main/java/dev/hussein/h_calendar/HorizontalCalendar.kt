@@ -33,7 +33,6 @@ class HorizontalCalendar(
     )
 
 
-
     private var day: Int = 1
 
     private var month: Month = Month.January
@@ -135,22 +134,11 @@ class HorizontalCalendar(
     }
 
 
-    fun setDay(day: Int, updateUi: Boolean) {
+    fun updateDate(day: Int, month: Month, year: Int) {
         this.day = day
-        if (updateUi)
-            invalidateDates()
-    }
-
-    fun setMonth(month: Month, updateUi: Boolean) {
         this.month = month
-        if (updateUi)
-            invalidateDates()
-    }
-
-    fun setYear(year: Int, updateUi: Boolean) {
         this.year = year
-        if (updateUi)
-            invalidateDates()
+        invalidateDates()
     }
 
 
