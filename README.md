@@ -22,7 +22,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'dev.hussein.horiz-calendar:horiz-calendar:0.0.1'
+    implementation 'dev.hussein.horiz-calendar:horiz-calendar:0.0.2'
 }
 ```
 # HOW TO USE 

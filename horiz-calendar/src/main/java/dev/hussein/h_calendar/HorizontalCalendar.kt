@@ -32,8 +32,6 @@ class HorizontalCalendar(
         -1
     )
 
-    private val minYear = Calendar.getInstance().getActualMinimum(Calendar.YEAR)
-    private val maxYear = Calendar.getInstance().getActualMaximum(Calendar.YEAR)
 
 
     private var day: Int = 1
@@ -237,6 +235,12 @@ class HorizontalCalendar(
 
     interface OnDateSelected {
         fun onDate(date: Date)
+    }
+
+    companion object {
+
+        val minYear = Calendar.getInstance().getActualMinimum(Calendar.YEAR)
+        val maxYear = Calendar.getInstance().getActualMaximum(Calendar.YEAR)
     }
 }
 

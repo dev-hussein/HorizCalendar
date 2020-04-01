@@ -11,10 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:hc_background_color="#087866"
-        app:hc_day="22"
         app:hc_month="february"
         app:hc_text_color="#ffffff"
         app:hc_year="2020"
+        app:hc_day="32"
+        app:hc_error_text_color="#E85D00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
